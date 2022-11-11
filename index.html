@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Basic HTML Form</h1>
+    <fieldset>
+        <legend>Name</legend>
+        <label for="fname">Förnamn:</label>
+        <br>
+        <input type="text" name="fname" id="fname">
+        <br><br>
+        <label for="ename">Efternamn:</label>
+        <br>
+        <input type="text" name="ename" id="ename">
+    </fieldset>
+    <fieldset>
+        <legend>Other Questions</legend>
+        <p>Choose a drink: 
+            <br>
+            <input type="radio" name="drink" id="coffee" value="coffee">
+            <label for="drink">Coffee</label>
+            <br>
+            <input type="radio" name="drink" id="tea" value="tea">
+            <label for="drink">Tea</label>
+            <br>
+            <input type="radio" name="drink" id="hotChocolate" value="hotChocolate">
+            <label for="drink">Hot chocolate</label>
+        </p>
+        <p>What ice cream do you like?
+            <br>
+            <input type="checkbox" name="flavour" id="chocolate">
+            <label for="flavour">Chocolate</label>
+            <br>
+            <input type="checkbox" name="flavour" id="chocolatePudding">
+            <label for="flavour">Chocolate Pudding</label>
+            <br>
+            <input type="checkbox" name="flavour" id="chocolatePeanutButter">
+            <label for="flavour">Chocolate Peanut Butter</label>
+            <br>
+            <input type="checkbox" name="flavour" id="vanilla">
+            <label for="flavour">Vanilla</label>
+            <br>
+            <input type="checkbox" name="flavour" id="strawberry">
+            <label for="flavour">Strawberry</label>
+        </p>
+        <p>Please provide comments:
+            <br>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </p>
+    </fieldset>
+</body>
+</html>
